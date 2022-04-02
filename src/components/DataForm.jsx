@@ -14,6 +14,11 @@ export default function DataForm(props) {
     if (formData.date === "" || formData.distance === "") {
       return;
     }
+    const regex = /^\d+\.?\d*$/;
+    const regexDistance = regex.test(formData.distance);
+    if (!regexDistance) {
+      return;
+    }
 
     const step = new Step(usid.rand(), formData.date, formData.distance);
     onAdd(step);
@@ -52,6 +57,7 @@ export default function DataForm(props) {
               className="input-distance"
               type="text"
               name="distance"
+              maxLength={5}
               value={formData.distance}
               onChange={handleInput}
             />
