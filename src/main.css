@@ -46,7 +46,7 @@ input.input-distance {
 
 .button-block {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   height: 60px;
   width: 70px;
 }

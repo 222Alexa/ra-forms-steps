@@ -26,3 +26,5 @@ _Особенности добавления_:
 Дополнительное (не обязательное) задание: вы можете реализовать кнопку редактирования ✎ - при нажатии на которую происходит перенос данных в форму ввода с последующим сохранением (при нажатии кнопки Ok).
 
 ---
+
+[![Build status](https://ci.appveyor.com/api/projects/status/j68oo3js0tka4n9u/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-forms-steps/branch/main)
